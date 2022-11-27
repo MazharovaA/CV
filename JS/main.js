@@ -3,7 +3,7 @@ $(document).ready(function(){
         arrows:true,
         dots:true,
         adaptivHeight:true,
-        speed:1000,
+        speed:300,
         infinite:false,
         swipe:true,
         TouchMove:true,
