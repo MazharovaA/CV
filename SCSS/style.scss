@@ -575,7 +575,7 @@ li.menu-li{
 
 //Страница 4. Experience
 .page4 {
-      background: url(../IMG/Background/phone_pic2.png) no-repeat center center;
+      background: url(../IMG/Background/phone\ pic1_fade.png) no-repeat center center;
       background-size: cover;
       height: 700px;
       width: 100vw;
@@ -583,9 +583,9 @@ li.menu-li{
             height: 800px;}
       @media(max-width:515px){
             height: 850px;
-            background-color: rgba(241, 219, 230, 0.6);}
+            }
       @media(max-width:375px){
-            height: 970px;}
+            height: 970px;
       
 
 		&__title {
@@ -619,7 +619,7 @@ li.menu-li{
                   background-color: rgba(255, 255, 255, 0.7) ;
                   @media(max-width:504px){
                         flex-wrap:wrap;
-                        padding:10px 20px 0;
+                        padding:10px 20px 0;}
                   }
             }
 
