@@ -354,7 +354,7 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 @media (max-width: 968px) {
   .page2__row {
@@ -448,7 +448,6 @@ body {
   }
 }
 .footer__contentf {
-  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -486,7 +485,7 @@ body {
 }
 @media (max-width: 790px) {
   .footer__contacts {
-    padding-top: 30px;
+    padding-top: 15px;
   }
 }
 
@@ -513,7 +512,7 @@ body {
 }
 @media (max-width: 790px) {
   .authorrights {
-    padding-top: 20px;
+    padding-top: 5px;
   }
 }
 
@@ -524,12 +523,12 @@ body {
 }
 @media (max-width: 968px) {
   .page3 {
-    height: 600px;
+    height: 650px;
   }
 }
 @media (max-width: 555px) {
   .page3 {
-    height: 450px;
+    height: 550px;
   }
 }
 .page3__title {
@@ -594,7 +593,7 @@ body {
 }
 @media (max-width: 968px) {
   .slider {
-    padding-top: 70px;
+    padding-top: 5px;
   }
 }
 
@@ -645,10 +644,10 @@ body {
 
 @media (max-width: 767px) {
   .slider {
-    padding: 70px 20px;
+    padding: 5px 20px;
   }
   .slider2 {
-    padding: 70px 20px;
+    padding: 5px 20px;
   }
 }
 .slider .slick-arrow {
@@ -723,7 +722,7 @@ body {
 }
 
 .page4 {
-  background: url(../IMG/Background/phone_pic2.png) no-repeat center center;
+  background: url(../IMG/Background/phone\ pic1_fade.png) no-repeat center center;
   background-size: cover;
   height: 700px;
   width: 100vw;
@@ -740,7 +739,7 @@ body {
 }
 @media (max-width: 375px) {
   .page4 {
-    height: 970px;
+    height: 870px;
   }
 }
 .page4__title {
@@ -770,7 +769,7 @@ body {
 }
 @media (max-width: 504px) {
   .page4__subtitle {
-    padding-top: 30px;
+    padding: 30px 10px 0;
   }
 }
 .page4__rowbg {
@@ -782,13 +781,13 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.6);
 }
-@media (max-width: 504px) {
+@media (max-width: 515px) {
   .page4__rowbg {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 10px 20px 0;
+    padding: 10px 20px;
   }
 }
 .page4__job {
@@ -818,7 +817,7 @@ body {
   }
 }
 .page4__rowsm {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.6);
   margin-top: 30px;
   padding: 0 20px 0;
   display: -webkit-box;
@@ -834,7 +833,7 @@ body {
   .page4__rowsm {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 10px 20px 0;
+    padding: 10px 20px;
   }
 }
 .page4__item {
@@ -862,7 +861,7 @@ body {
 }
 @media (max-width: 504px) {
   .heading {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: none;
   }
 }
@@ -881,14 +880,9 @@ body {
     height: 600px;
   }
 }
-@media (max-width: 968px) and (max-width: 568px) {
+@media (max-width: 568px) {
   .page5 {
     height: 500px;
-  }
-}
-@media (max-width: 968px) and (max-width: 400px) {
-  .page5 {
-    height: 450px;
   }
 }
 .page5__title {
@@ -901,7 +895,7 @@ body {
 }
 @media (max-width: 968px) {
   .slider2 {
-    padding-top: 70px;
+    padding-top: 5px;
   }
 }
 
@@ -915,7 +909,7 @@ body {
   height: 580px;
   width: 100vw;
 }
-@media (max-width: 504px) {
+@media (max-width: 968px) {
   .page6 {
     height: 500px;
   }
@@ -937,4 +931,13 @@ body {
   padding: 20px 20px 0 20px;
   text-align: right;
   font-weight: 400;
+}
+
+.titlehide {
+  display: none;
+}
+@media (max-width: 968px) {
+  .titlehide {
+    display: block;
+  }
 }
