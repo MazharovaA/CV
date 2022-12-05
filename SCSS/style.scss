@@ -79,7 +79,7 @@ body::-webkit-scrollbar{
 .page1 {
       background: url(../IMG/Background/phone\ pic1.png) no-repeat center center;
       background-size: cover;
-      max-height: 81vh;
+      min-height: 81vh;
       // max-width: 100%;
       
 
@@ -358,7 +358,7 @@ li.menu-li{
 //Header menu
 .header {
       background-color: rgba(241, 219, 230, 0.6);
-      height:19vh;
+      min-height:19vh;
       //height:100px;
       display:flex;
       flex:0 0 auto;

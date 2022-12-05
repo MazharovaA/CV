@@ -130,7 +130,7 @@ body::-webkit-scrollbar {
 .page1 {
   background: url(../IMG/Background/phone\ pic1.png) no-repeat center center;
   background-size: cover;
-  max-height: 81vh;
+  min-height: 81vh;
 }
 .page1__photo {
   padding-top: 6vh;
@@ -429,7 +429,7 @@ body::-webkit-scrollbar {
 
 .header {
   background-color: rgba(241, 219, 230, 0.6);
-  height: 19vh;
+  min-height: 19vh;
   display: flex;
   flex: 0 0 auto;
   align-items: center;
