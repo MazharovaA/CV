@@ -61,8 +61,9 @@ $(window).scroll(function() {
 });
 
 btn.on('click', function(e) {
+    console.log(e);
     e.preventDefault();
-    $('html, body').animate({scrollTop:0}, '1000');
+    $('html, body').animate({scrollTop:0}, 5);
 });
 
 // скорсть scroll-behavior

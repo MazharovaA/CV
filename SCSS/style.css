@@ -132,6 +132,11 @@ body::-webkit-scrollbar {
   background-size: cover;
   min-height: 81vh;
 }
+@media (max-width: 504px) {
+  .page1 {
+    min-height: 61vh;
+  }
+}
 .page1__photo {
   padding-top: 6vh;
 }
@@ -182,6 +187,7 @@ body::-webkit-scrollbar {
   .page1__subtitle::after {
     content: url(../IMG/Icons/Line\ mob.svg);
     display: block;
+    padding-bottom: 10px;
   }
 }
 
