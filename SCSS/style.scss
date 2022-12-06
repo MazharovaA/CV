@@ -79,7 +79,7 @@ body::-webkit-scrollbar{
 .page1 {
       background: url(../IMG/Background/phone\ pic1.png) no-repeat center center;
       background-size: cover;
-      min-height: 81vh;
+      min-height: 85vh;
       // max-width: 100%;
       @media(max-width:504px){
             min-height: 61vh;
@@ -359,7 +359,7 @@ li.menu-li{
 //Header menu
 .header {
       background-color: rgba(241, 219, 230, 0.6);
-      min-height:19vh;
+      min-height:15vh;
       //height:100px;
       display:flex;
       flex:0 0 auto;
@@ -462,7 +462,7 @@ li.menu-li{
 //Страница 3.Education
 .page3 {
       background-color:#F5F5F5;
-      height: 100vh;
+      height: 700px;
       width: 100vw;
       @media(max-width:968px){
             height:650px;
@@ -645,7 +645,7 @@ li.menu-li{
             }
 
 		&__title {
-                  padding-top: 80px;
+                  padding-top: 60px;
                   text-align:center;
                   font-size: 34px;
                   text-transform: uppercase;
@@ -659,7 +659,7 @@ li.menu-li{
 		}
 
 		&__subtitle {
-                  padding-top: 180px;
+                  padding-top: 150px;
                   @media(max-width:968px){
                         padding-top:100px;
                         }

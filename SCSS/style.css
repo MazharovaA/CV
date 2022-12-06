@@ -130,7 +130,7 @@ body::-webkit-scrollbar {
 .page1 {
   background: url(../IMG/Background/phone\ pic1.png) no-repeat center center;
   background-size: cover;
-  min-height: 81vh;
+  min-height: 85vh;
 }
 @media (max-width: 504px) {
   .page1 {
@@ -435,7 +435,7 @@ body::-webkit-scrollbar {
 
 .header {
   background-color: rgba(241, 219, 230, 0.6);
-  min-height: 19vh;
+  min-height: 15vh;
   display: flex;
   flex: 0 0 auto;
   align-items: center;
@@ -551,7 +551,7 @@ body::-webkit-scrollbar {
 
 .page3 {
   background-color: #F5F5F5;
-  height: 100vh;
+  height: 700px;
   width: 100vw;
 }
 @media (max-width: 968px) {
@@ -762,7 +762,7 @@ body::-webkit-scrollbar {
   }
 }
 .page4__title {
-  padding-top: 80px;
+  padding-top: 60px;
   text-align: center;
   font-size: 34px;
   text-transform: uppercase;
@@ -779,7 +779,7 @@ body::-webkit-scrollbar {
   }
 }
 .page4__subtitle {
-  padding-top: 180px;
+  padding-top: 150px;
 }
 @media (max-width: 968px) {
   .page4__subtitle {
